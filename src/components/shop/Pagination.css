@@ -1,0 +1,39 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.page-button {
+  background-color: #F9F1E7;
+  border: none;
+  padding: 1.25rem 1.5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  border-radius: 20%;
+  transition: background-color 0.2s ease;
+}
+
+.page-button:hover {
+  background-color: #cfa440;
+  color: #fff;
+}
+
+.page-button.current {
+  background-color: #B88E2F;
+}
+
+.pagination .page-button:first-child {
+  display: none;
+}
+
+.pagination.has-previous .page-button:first-child {
+  display: block;
+}
+
+.pagination.is-last-page .page-button:last-child {
+  cursor: default;
+  opacity: 0.5;
+}

@@ -1,0 +1,190 @@
+/* src/components/home/CardProducts.css */
+.product-card {
+    width: 17.81rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 18.8rem;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.card-product {
+    background-color: #F4F5F7;
+}
+
+.product-info {
+    padding: 1rem;
+    text-align: left;
+    transition: opacity 0.3s ease;
+    background-color: #F4F5F7;
+}
+
+.product-card:hover .product-info {
+    opacity: 1;
+}
+
+.product-name {
+    font-size: 1.5rem !important;
+    margin: 0 0 0.5rem 0 !important;
+}
+
+.product-detail {
+    color: #898989
+}
+
+.product-prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #333;
+}
+
+.featured-products .product-prices p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.5rem;
+}
+
+.featured-products .product-prices .product-descont-price {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #B0B0B0;
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-product-actions {
+    width: 17.81rem;
+    height: 100%;
+    cursor: default;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-product-actions:hover {
+    opacity: 1;
+}
+
+.card-product-actions .product-card-primary-button {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 3.5rem;
+    background-color: #fff;
+    color: #B88E2F;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+}
+
+.card-product-actions .product-card-primary-button:hover {
+    background-color: #e7e7e7f5;
+}
+
+.card-product-actions .options-action-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    cursor: default;
+}
+
+.card-product-actions .product-card-action-button {
+    flex: 1;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1rem;
+    display: flex;
+    transition: color 0.5s ease;
+    cursor: pointer;
+    font-weight: 600;
+    cursor: default;
+}
+
+.card-product-actions .product-card-action-button:hover {
+    opacity: 0.8;
+}
+
+.product-card-action-button .like {
+    background-color: transparent;
+}
+
+.circle {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    top: 5%;
+    right: 7%;
+    background-color: transparent;
+    text-align: center;
+}
+
+.circle-true {
+    width: 3rem;
+    height: 3rem;
+    background-color: #2EC1AC;
+    transition: all 0.3s ease;
+}
+
+.circle-percent {
+    width: 3rem;
+    height: 3rem;
+    right: 27%;
+    background-color: #E97171;
+    transition: all 0.3s ease;
+}
+
+.new-text {
+    position: absolute;
+    color: white;
+    font-size: 1rem !important;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    top: 23%;
+    right: 14%;
+}
+
+.circle-true-present .circle-true {
+    right: 7%;
+}
+
+.circle-percent-present .circle-true {
+    right: 27%;
+}
+
+.circle-percent-present .circle-percent {
+    right: 7%;
+}
+
+.circle-true-present .circle-percent {
+    right: 27%;
+}

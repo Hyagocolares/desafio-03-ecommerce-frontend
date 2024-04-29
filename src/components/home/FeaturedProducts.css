@@ -1,0 +1,42 @@
+/* src/components/home/FeaturedProducts.css */
+.featured-products {
+    margin: 0px 0 4rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-products h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.featured-products p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.featured-products .product-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(17.81rem, 17.81rem));
+    gap: 2rem;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btt-showmore {
+    border: solid 1px orange;
+    color: orange;
+    margin: 2rem;
+    padding: 1rem;
+    width: 15rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+
+.btt-showmore:hover {
+    background-color: rgb(255, 228, 177);
+    color: #fff;
+}

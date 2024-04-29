@@ -1,0 +1,61 @@
+.header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1rem 3.55rem;
+}
+
+.container {
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.logo img {
+    width: 3.12rem;
+    margin-right: 0.2rem;
+}
+
+.logo h1 {
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 2.25rem;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: auto 2.4rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons img {
+    width: 1.5rem;
+    height: 1.3rem;
+    margin-left: 1rem;
+    margin-right: 1.8rem;
+}

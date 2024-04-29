@@ -1,0 +1,97 @@
+/* FilterShop.tsx styles */
+.filter-shop {
+  background-color: #ffeed6;
+  display: flex;
+  flex-direction: column;
+  padding: 0.9rem;
+  margin: 0 0 1.5rem 0;
+  align-items: stretch;
+}
+
+.filter-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filter-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 0 1rem;
+}
+
+.filter-button:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
+.filter-button img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.buttons-filter .grid-img img {
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.filter-select {
+  padding: 1.19rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.filter-shop p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  cursor: default;
+}
+
+.buttons-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-filter {
+  display: flex;
+  margin: 0 0.5rem;
+}
+
+.filter-select-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filter-select-group Select {
+  cursor: pointer;
+  appearance: none;
+}
+
+.filter-select-group p {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+  cursor: default;
+}
+
+.buttons-filter .traco {
+  color: #999;
+  margin: 0.9rem;
+  font-size: 2rem
+}
+
+.buttons-filter .txt-filter {
+  display: flex;
+  margin: 0 1rem;
+  align-items: center;
+}

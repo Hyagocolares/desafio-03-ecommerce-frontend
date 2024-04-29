@@ -1,0 +1,8 @@
+.shop .product-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(17.81rem, 17.81rem));
+    gap: 2rem;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+}

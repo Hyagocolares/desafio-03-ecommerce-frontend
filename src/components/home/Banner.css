@@ -1,0 +1,59 @@
+/* src/components/home/Banner.css */
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 31.25rem;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: -50%;
+    bottom: 10px;
+}
+
+.background-image {
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    transform: translate(10px, 10px);
+    width: 40rem;
+    height: 25rem;
+    z-index: -1;
+}
+
+.banner-content h1 {
+    font-size: 3.25rem;
+    margin: 0;
+    padding: 0;
+    color: #B88E2F;
+}
+
+.banner-content p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}

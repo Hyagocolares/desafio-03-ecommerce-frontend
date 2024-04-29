@@ -1,0 +1,44 @@
+.banner-shop {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 19.5rem;
+}
+
+.banner-image-shop {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-content-shop {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 28%;
+}
+
+.banner-text-shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-content-shop h1 {
+    font-size: 3.25rem;
+    margin: 0;
+    padding: 0;
+    color: #B88E2F;
+}
+
+.banner-content-shop p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
